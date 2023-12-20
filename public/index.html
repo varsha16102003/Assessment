@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Login</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form id="signupForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <br>
+        <button type="button" onclick="signup()">Sign Up</button>
+    </form>
+
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="loginUsername">Username:</label>
+        <input type="text" id="loginUsername" required>
+        <br>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" required>
+        <br>
+        <button type="button" onclick="login()">Login</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
